@@ -4,8 +4,28 @@
   text-align: center;
 }
 
-/*Main*/
+.section-title {
+  position: fixed;
+}
 
-/*Fintech*/
+.iphone {
+  margin: auto;
+}
 
-/*Projects*/
+/*Slider Arrows*/
+
+.fp-controlArrow.fp-prev {
+  border-right-color: #373E40
+}
+
+.fp-controlArrow.fp-next {
+  border-left-color: #373E40
+}
+
+.fp-controlArrow.fp-prev:hover {
+ border-right-color: #556063
+}
+
+.fp-controlArrow.fp-next:hover {
+  border-left-color: #556063
+}
