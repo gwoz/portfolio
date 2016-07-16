@@ -1,26 +1,31 @@
-* {
-  background-color: #628395;
-  font-family: 'Vollkorn', serif;
-}
-
 /*General*/
 
-h1 {
-  font-family: 'Francois One', sans-serif;
+.section {
+  text-align: center;
 }
 
-/*Main*/
-
-#me {
-  height: 100%;
-  width: 40%;
-  float: left;
+.section-title {
+  position: fixed;
 }
 
-#about > h1 {
-  font-size: 5em;
+.iphone {
+  margin: auto;
 }
 
-#about > p {
-  font-size: 2em;
+/*Slider Arrows*/
+
+.fp-controlArrow.fp-prev {
+  border-right-color: #373E40
+}
+
+.fp-controlArrow.fp-next {
+  border-left-color: #373E40
+}
+
+.fp-controlArrow.fp-prev:hover {
+ border-right-color: #556063
+}
+
+.fp-controlArrow.fp-next:hover {
+  border-left-color: #556063
 }
