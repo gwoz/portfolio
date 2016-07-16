@@ -1,0 +1,26 @@
+* {
+  background-color: #628395;
+  font-family: 'Vollkorn', serif;
+}
+
+/*General*/
+
+h1 {
+  font-family: 'Francois One', sans-serif;
+}
+
+/*Main*/
+
+#me {
+  height: 100%;
+  width: 40%;
+  float: left;
+}
+
+#about > h1 {
+  font-size: 5em;
+}
+
+#about > p {
+  font-size: 2em;
+}
