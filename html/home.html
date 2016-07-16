@@ -2,45 +2,64 @@
 <html>
 <head>
   <title>Mike Gwozdek</title>
-  <script
-    type="text/javascript"
-    src="https://code.jquery.com/jquery-3.1.0.min.js"
-    integrity="sha256-cCueBR6CsyA4/9szpPfrX3s49M9vUU5BgtiJj06wt/s="
+  <script   
+    src="https://code.jquery.com/jquery-3.1.0.slim.min.js"   
+    integrity="sha256-cRpWjoSOw5KcyIOaZNo4i6fZ9tKPhYYb6i5T9RSVJG8="   
     crossorigin="anonymous"></script>
+  <link 
+    rel="stylesheet"
+    type="text/css"
+    href="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/2.8.2/jquery.fullPage.min.css"/>
   <script type="text/javascript" 
-    src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/2.8.2/jquery.fullPage.min.css"></script>
-  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/2.8.2/jquery.fullPage.min.js"></script>
-  <script type="text/javascript" src="../scripts/main.js"></script>
-  <link rel="stylesheet" type="text/css" href="../stylesheets/main.css" />
-  <link href='https://fonts.googleapis.com/css?family=Francois+One' rel='stylesheet' type='text/css'>
-  <link href='https://fonts.googleapis.com/css?family=Vollkorn:400,400italic,700,700italic' rel='stylesheet' type='text/css'>
+    src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/2.8.2/jquery.fullPage.min.js"></script>
+  <script type="text/javascript" 
+    src="../scripts/main.js"></script>
+  <link rel="stylesheet" type="text/css" href="../stylesheets/main.css"/>
 </head>
 <body>
   <div id="fullpage">
-    <div class="section" id="main">
-      <div id="me">
+    <div class="section">
       <img src="../images/me.png" alt="Illustration of Me">
-      </div>
-      <div id="about">
       <h1>Mike Gwozdek</h1>
       <p>Fintech Developer and Software Implementation Consultant<p>
-        <a href="https://www.linkedin.com/in/mikegwozdek"><img src="../images/linkedin.png" alt="LinkedIn" height="50px" width="50px"></a>
-        <a href="https://github.com/gwoz"><img src="../images/github.png" alt="GitHub" height="50px" width="50px"></a>
+      <a href="https://www.linkedin.com/in/mikegwozdek">
+        <img src="../images/linkedin.png" alt="LinkedIn" height="50px" width="50px"></a>
+      <a href="https://github.com/gwoz">
+        <img src="../images/github.png" alt="GitHub" height="50px" width="50px"></a>
+    </div>
+    <div class="section">
+      <div class="slide">
+        <img src="../images/me.png" alt="Illustration of Me">
+        <h2>Direct Swap</h2>
+        <p>Direct Swap iakgagsmgm malmalmflm lmalkfmalkmfsm kas ka</p>
+      </div>
+      <div class="slide">
+        <img src="../images/me.png" alt="Illustration of Me">
+        <h2>Software Implementation</h2>
+        <p>Software Implementation iakgagsmgm malmalmflm lmalkfmalkmfsm kas ka</p>
+      </div>
+      <div class="slide">
+        <img src="../images/me.png" alt="Illustration of Me">
+        <h2>Project Management</h2>
+        <p>iakgagsmgm malmalmflm lmalkfmalkmfsm kas ka</p>
       </div>
     </div>
-    <div class="section" id="fintech">
-      <h1>Fintech</h1>
-      <div class="slide"> Slide 1 </div>
-      <div class="slide"> Slide 2 </div>
-      <div class="slide"> Slide 3 </div>
-      <div class="slide"> Slide 4 </div>
-    </div>
-    <div class="section" id="projects">
-      <h1>Projects</h1>
-      <div class="slide"> Slide 1 </div>
-      <div class="slide"> Slide 2 </div>
-      <div class="slide"> Slide 3 </div>
-      <div class="slide"> Slide 4 </div>
+    <div class="section">
+      <div class="slide" data-anchor="battleground">
+        <img src="../images/me.png" alt="Illustration of Me">
+        <h2>Battleground</h2>
+        <p>A crowd gaming iPhone app built in React Native using a Rails API and Postgres geospatial-enabled database. After signing in using Facebook or Google, geolocation data emitted by your phone is compared against other users in real-time. When another user is nearby, both are prompted to take part in a duel where accelerometer data is used to determine the winner with points being applied to a global leaderboard. This app was designed to encourage spontaneous social interaction in the most unlikely places!</p>
+      </div>
+      <div class="slide">
+        <img src="../images/me.png" alt="Illustration of Me">
+        <h2>Meteor 404</h2>
+        <p>Meteor 404 iakgagsmgm malmalmflm lmalkfmalkmfsm kas ka</p>
+      </div>
+      <div class="slide">
+        <img src="../images/me.png" alt="Illustration of Me">
+        <h2>Sequence</h2>
+        <p>Sequence iakgagsmgm malmalmflm lmalkfmalkmfsm kas ka</p>
+      </div>
     </div>
   </div>
 </body>

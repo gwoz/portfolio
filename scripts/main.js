@@ -1,5 +1,7 @@
 $(document).ready(function() {
   $('#fullpage').fullpage({
-    verticalCentered: false
+    anchors:['main', 'fintech', 'projects'],
+    continuousVertical: true,
+    sectionsColor : ['#78CAD2', '#52B788', '#FFF07C']
   });
 });

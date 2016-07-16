@@ -1,26 +1,11 @@
-* {
-  background-color: #628395;
-  font-family: 'Vollkorn', serif;
-}
-
 /*General*/
 
-h1 {
-  font-family: 'Francois One', sans-serif;
+.section {
+  text-align: center;
 }
 
 /*Main*/
 
-#me {
-  height: 100%;
-  width: 40%;
-  float: left;
-}
+/*Fintech*/
 
-#about > h1 {
-  font-size: 5em;
-}
-
-#about > p {
-  font-size: 2em;
-}
+/*Projects*/
