@@ -1,0 +1,125 @@
+/*General*/
+
+* {  
+  font-family: 'Josefin Sans', sans-serif;
+  line-height: 1.3;
+  color: #373E40;
+}
+
+/*Sections*/
+
+.section-title {
+  position: fixed;
+  font-size: 8em;
+  opacity: 0.1;
+  margin-top: 0.2em;
+  margin-left: 0.1em;
+  text-transform: uppercase;
+  width: 100%;
+}
+
+/*Slides*/
+
+.slide-content {
+  max-width: 75%;
+  margin: auto;
+}
+
+.slide-visual {
+  width: 300px;
+  height: 400px;
+  min-width: 50%;
+  min-height: 50%;
+  float: left;
+  display: inline-block;
+}
+
+.slide-title {
+  font-size: 2em;
+  margin-bottom: 0.3em;
+  padding-top: 1em;
+}
+
+.slide-text {
+  display: inline-block;
+  float: right;
+  max-width: 50%;
+}
+
+.slide-body {
+  margin-top: 1em;
+  font-size: 1.2em;
+  display: block;
+  overflow: hidden;
+}
+
+.slide-tech {
+  font-size: 1em;
+  overflow: hidden;
+}
+
+.iphone {
+  margin: auto;
+  float: left;
+  margin-right: 2em;
+}
+
+/*Slider Arrows*/
+
+.fp-controlArrow.fp-prev {
+  border-right-color: #373E40
+}
+
+.fp-controlArrow.fp-next {
+  border-left-color: #373E40
+}
+
+.fp-controlArrow.fp-prev:hover {
+ border-right-color: #556063
+}
+
+.fp-controlArrow.fp-next:hover {
+  border-left-color: #556063
+}
+
+/*Main*/
+
+#main-title {
+  display: inline-block;
+  min-width: 320px;
+  float: right;
+  margin-top: 5%;
+  width: 50%;
+}
+
+#main-me {
+  float: left;
+  display: inline-block;
+  min-width: 320px;
+  width: 50%;
+  text-align: center;
+}
+
+#main-title > h1 {
+  font-size: 8vw;
+  line-height: 1;
+  text-align: center;
+  margin: 0.3em;
+  text-transform: uppercase;
+}
+
+#main-title > p {
+  font-size: 4vw;
+  text-align: center;
+  margin: 0.1em;
+}
+
+
+/*Consulting*/
+
+.text-visual {
+  font-size: 10em;
+  line-height: 1em;
+  text-transform: uppercase;
+  margin-top: 0.3em;
+}
