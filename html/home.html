@@ -17,47 +17,91 @@
   <script type="text/javascript" 
     src="../scripts/biomp.js"></script>
   <link rel="stylesheet" type="text/css" href="../stylesheets/main.css"/>
+  <link href='https://fonts.googleapis.com/css?family=Josefin+Sans:300,400,700' rel='stylesheet' type='text/css'>
 </head>
 <body>
   <div id="fullpage">
-    <div class="section">
-      <img src="../images/me.png" alt="Illustration of Me">
-      <h1>Mike Gwozdek</h1>
-      <p>Fintech Developer and Software Implementation Consultant<p>
-      <a href="https://www.linkedin.com/in/mikegwozdek">
-        <img src="../images/linkedin.png" alt="LinkedIn" height="50px" width="50px"></a>
-      <a href="https://github.com/gwoz">
-        <img src="../images/github.png" alt="GitHub" height="50px" width="50px"></a>
+    <div class="section main">
+      <img id="main-me" src="../images/me.png" alt="Illustration of Me">
+      <div id="main-title">
+        <h1>Mike Gwozdek</h1>
+        <p>Fintech Developer and Software Implementation Consultant<p>
+        <a href="https://www.linkedin.com/in/mikegwozdek">
+          <img src="../images/linkedin.png" alt="LinkedIn" height="54px" width="54px"></a>
+        <a href="https://github.com/gwoz">
+          <img src="../images/github.png" alt="GitHub" height="50px" width="50px"></a>
+      </div>
     </div>
-    <div class="section">
+    <div class="section development">
       <h2 class="section-title">Development</h2>
       <div class="slide" data-anchor="direct-swap">
-        <img src="../images/me.png" alt="Illustration of Me">
-        <h3>Direct Swap</h3>
-        <p>An electronic marketplace for companies who use derivatives to manage foreign exchange, interest rate, and commodity risk. Companies use Direct Swap to streamline their hedging process and discover new sources of liquidity.</p>
+        <div class="slide-content">
+          <div class="slide-visual"></div>
+          <div class="slide-text">
+            <h3 class="slide-title">Direct Swap</h3>
+            <p class="slide-body">Currently working on an electronic marketplace for companies who use derivatives to manage foreign exchange, interest rate, and commodity risk. Companies use Direct Swap to streamline their hedging process and discover new sources of liquidity.</p>
+            <p class="slide-tech">Full Stack Web Development, Proprietary Technologies</p>
+          </div>
+        </div>
       </div>
       <div class="slide" data-anchor="battleground">
-        <div class="iphone" id="battleground-preview"></div>
-        <h3>Battleground</h3>
-        <p>A crowd gaming iPhone app built in React Native using a Rails API and Postgres geospatial-enabled database. After signing in using Facebook or Google, geolocation data starts streaming and is compared against other users in real-time. When two users are within 5 meters they are prompted to take part in a duel where phone accelerometer data is used to determine a winner.</p>
+        <div class="slide-content">
+          <div class="slide-visual"></div>
+          <div class="slide-text">
+            <h3 class="slide-title">Battleground</h3>
+            <p class="slide-body">A crowd gaming app built to encourage spontaneous social interaction. After signing in with a Facebook or Google account, background geolocation data starts streaming and is compared against other players in real-time. When two players are within 5 meters they are prompted to take part in a duel. Using their phone like a sword, a winner is determined and points are applied to a global leaderboard.</p>
+            <p class="slide-tech">React Native, iOS, Rails API, PostgreSQL, PostGIS, Geolocation, Accelerometer, Facebook Login, Google Sign-In</p>
+          </div>
+        </div>
       </div>
       <div class="slide" data-anchor="meteor-404">
-        <div class="iphone" id="meteor404-preview"></div>
-        <h3>Meteor 404</h3>
-        <p>A web application built in Rails using the NASA Meteorite Landings API, Google Maps Geocoding API, and Google Maps Directions API. Coordinate and other data for just over 1,000 confirmed but unrecovered meteorites is loaded from the NASA API, converted into an address with the Google Geocoding API, and then directions to that location are generated with the Google Maps Directions API. This app enables you to go find a new meteor and return a Meteor 200!</p>
+        <div class="slide-content">
+          <div class="slide-visual"></div>
+          <div class="slide-text">
+            <h3 class="slide-title">Meteor 404</h3>
+            <p class="slide-body">Coordinates for just over 1,000 unrecovered meteorites are loaded from the NASA API and converted into an address displayed on Google Maps. Type in your current location and you will receive directions to the closest one. This app enables you to search for real space rocks that have never been recovered.</p>
+            <p class="slide-tech">Full Stack Development, Javascript, HTML/CSS, Google Maps Geocoding API, Google Maps Directions API</p>
+          </div>
+        </div>
       </div>
     </div>
-    <div class="section" data-anchor="meteor-404">
+    <div class="section consulting">
       <h2 class="section-title">Consulting</h2>
-      <div class="slide">
-        <img src="../images/me.png" alt="Illustration of Me">
-        <h3>FX and IR Hedging Solution</h3>
-        <p>Modeled cash flow and hedge accounting examples including creation of hypothetical derivatives and regression for assessment of hedge effectiveness, migrated position data, and trained users on the new process.</p>
+      <div class="slide" data-anchor="risk-management">
+        <div class="slide-content">
+          <div class="slide-visual">
+            <h3 class="text-visual">Risk Mgt</h3>
+          </div>
+          <div class="slide-text">
+            <h3 class="slide-title">Software Implementation</h3>
+            <p class="slide-body">I implement complex foreign exchange, interest rate, and commodity risk management software for Fortune 500 companies. Able to both get my hands dirty or manage teams through all phases of the project lifecycle. Work with me to expand your consulting capacity and get more clients live.</p>
+            <p class="slide-tech">Previous experience with Kyriba, Reval, SunGard, Wall Street Suite</p>
+          </div>
+        </div>
       </div>
-      <div class="slide">
-        <img src="../images/me.png" alt="Illustration of Me">
-        <h3>Project Management</h3>
-        <p>iakgagsmgm malmalmflm lmalkfmalkmfsm kas ka</p>
+      <div class="slide" data-anchor="integrate">
+        <div class="slide-content">
+          <div class="slide-visual">
+            <h3 class="text-visual">Big Data</h3>
+          </div>
+          <div class="slide-text">
+            <h3 class="slide-title">Connect your applications</h3>
+            <p class="slide-body">I design and build integrations to accounting, business intelligence, trading, and market data providers. From the intitial application handshake to production go-live I can help you achieve straight through processing and take your company to the next level.</p>
+            <p class="slide-tech">Previous experience with SAP, Oracle, PeopleSoft, NetSuite, Domo, Tableau, Hyperion, FXall, 360T, ICD, Misys, Calypso, Reuters, and Bloomberg</p>
+          </div>
+        </div>
+      </div>
+      <div class="slide" data-anchor="project-management">
+        <div class="slide-content">
+          <div class="slide-visual">
+            <h3 class="text-visual">Proj Mgt</h3>
+          </div>
+          <div class="slide-text">
+            <h3 class="slide-title">Just get it done</h3>
+            <p class="slide-body">I bring years of real world experience on lightweight small projects and also large scale global projects. Able to manage project plans, budgets, requirements gathering, development, testing, status meetings, issue tracking, documentation, and support. I'm comfortable tackling every variety of technology and human challenge.</p>
+            <p class="slide-tech">Use Waterfall, Agile, and Hybrid techniques. Previous experience with Project, SharePoint, OpenAir, Replicon, Jira, Trello, Slack,</p>
+          </div>
+        </div>
       </div>
     </div>
   </div>
