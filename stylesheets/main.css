@@ -101,15 +101,16 @@
 }
 
 #main-title > h1 {
-  font-size: 8vw;
+  font-size: 7vw;
   line-height: 1;
   text-align: center;
   margin: 0.3em;
   text-transform: uppercase;
+  padding-top: 20%;
 }
 
 #main-title > p {
-  font-size: 4vw;
+  font-size: 3vw;
   text-align: center;
   margin: 0.1em;
 }
