@@ -26,9 +26,6 @@
 }
 
 .slide-visual {
-  width: 300px;
-  height: 400px;
-  min-width: 50%;
   min-height: 50%;
   float: left;
   display: inline-block;
@@ -56,12 +53,6 @@
 .slide-tech {
   font-size: 1em;
   overflow: hidden;
-}
-
-.iphone {
-  margin: auto;
-  float: left;
-  margin-right: 2em;
 }
 
 /*Slider Arrows*/
@@ -101,24 +92,39 @@
 }
 
 #main-title > h1 {
-  font-size: 8vw;
+  font-size: 7vw;
   line-height: 1;
   text-align: center;
   margin: 0.3em;
   text-transform: uppercase;
+  padding-top: 20%;
 }
 
 #main-title > p {
-  font-size: 4vw;
+  font-size: 3vw;
   text-align: center;
   margin: 0.1em;
 }
 
+/*Development*/
+
+.iphone {
+  width: 200px;
+  height: 414px;
+  float: right;
+  padding-left: 7em;
+}
+
+.macbook {
+  padding-top: 4em;
+  height: 250px;
+  width: 380px;
+}
 
 /*Consulting*/
 
 .text-visual {
-  font-size: 10em;
+  font-size: 5em;
   line-height: 1em;
   text-transform: uppercase;
   margin-top: 0.3em;
