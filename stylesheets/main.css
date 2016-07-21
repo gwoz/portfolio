@@ -26,9 +26,6 @@
 }
 
 .slide-visual {
-  width: 300px;
-  height: 400px;
-  min-width: 50%;
   min-height: 50%;
   float: left;
   display: inline-block;
@@ -56,12 +53,6 @@
 .slide-tech {
   font-size: 1em;
   overflow: hidden;
-}
-
-.iphone {
-  margin: auto;
-  float: left;
-  margin-right: 2em;
 }
 
 /*Slider Arrows*/
@@ -115,6 +106,19 @@
   margin: 0.1em;
 }
 
+/*Development*/
+
+.iphone {
+  padding: 3em;
+  width: 200px;
+  height: 414px;
+}
+
+.macbook {
+  padding-top: 5em;
+  height: 220px;
+  width: 350px;
+}
 
 /*Consulting*/
 
