@@ -109,15 +109,16 @@
 /*Development*/
 
 .iphone {
-  padding: 3em;
   width: 200px;
   height: 414px;
+  float: right;
+  padding-left: 7em;
 }
 
 .macbook {
-  padding-top: 5em;
-  height: 220px;
-  width: 350px;
+  padding-top: 4em;
+  height: 250px;
+  width: 380px;
 }
 
 /*Consulting*/
