@@ -79,7 +79,6 @@
   display: inline-block;
   min-width: 320px;
   float: right;
-  margin-top: 5%;
   width: 50%;
 }
 
@@ -87,8 +86,9 @@
   float: left;
   display: inline-block;
   min-width: 320px;
-  width: 50%;
+  width: 40%;
   text-align: center;
+  margin-left: 5em;
 }
 
 #main-title > h1 {
@@ -117,7 +117,7 @@
   width: 200px;
   height: 414px;
   float: right;
-  padding-left: 7em;
+  padding-left: 10em;
 }
 
 .macbook {
@@ -147,6 +147,7 @@
     float: none;
     display: block;
     margin: auto;
+    margin-top: 8em;
   }
 
   #main-title {
@@ -167,13 +168,14 @@
     width: 100px;
     height: 100px;
     margin: 0.3em;
+    margin-bottom: 1em;
   }
 
   /*Slides*/
 
   .section-title {
-    text-align: center;
-    margin: 0.2em 0em 0em 0em;
+    opacity: 0;
+    position: absolute;
   }
 
   .macbook {
@@ -187,6 +189,7 @@
   .slide-visual {
     width: 100%;
     text-align: center;
+    margin-top: 7em;
   }
 
   .iphone {
@@ -222,6 +225,7 @@
 
   .slide-tech {
     font-size: 1.5em;
+    margin-bottom: 5em;
   }
 
   /*Consulting*/
@@ -229,5 +233,9 @@
   .consulting .slide-title {
     opacity: 0;
     position: absolute;
+  }
+
+  .consulting .text-visual {
+    margin-top: 2em;
   }
 }
