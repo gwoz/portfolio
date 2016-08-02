@@ -3,8 +3,7 @@ $(document).ready(function() {
   // Fullpage.js Settings
 
   $('#fullpage').fullpage({
-    anchors:['main', 'development', 'consulting'],
-    continuousVertical: true
+    anchors:['main', 'development', 'consulting']
   });
 
   // iPhone Previews
