@@ -171,26 +171,64 @@
 
   /*Slides*/
 
+  .section-title {
+    text-align: center;
+    margin: 0.2em 0em 0em 0em;
+  }
+
   .macbook {
     display: block;
     width: 100%;
     padding: 0px;
     height: 450px;
+    margin-top: 5em;
+  }
+
+  .slide-visual {
+    width: 100%;
+    text-align: center;
   }
 
   .iphone {
-    margin: auto;
-    padding: 0px;
-    display: block;
+    margin-top: 6em;
+    padding: 0;
+    width: 250px;
+    height: 500px;
+    float: none;
   }
 
   .slide-text {
+    display: block;
     max-width: 100%;
   }
 
-  .slide-text > h3 {
-    font-size: 5em;
+  .slide-body, .slide-tech, .slide-title {
+    max-width: 100%;
+    text-align: center;
+    margin-left: 0em;
+    margin-right: 0em;
+  }
+
+  .slide-title {
+    font-size: 6em;
+    margin-top: 0;
     padding-top: 0.5em;
-    display: block;
+  }
+
+  .slide-body {
+    font-size: 2.5em;
+    margin-top: 0em;
+  }
+
+  .slide-tech {
+    font-size: 2em;
+  }
+
+  /*Consulting*/
+
+  .consulting .slide-title {
+    background-color: red;
+    opacity: 0;
+    position: absolute;
   }
 }
