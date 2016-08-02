@@ -216,18 +216,17 @@
   }
 
   .slide-body {
-    font-size: 2.5em;
+    font-size: 2em;
     margin-top: 0em;
   }
 
   .slide-tech {
-    font-size: 2em;
+    font-size: 1.5em;
   }
 
   /*Consulting*/
 
   .consulting .slide-title {
-    background-color: red;
     opacity: 0;
     position: absolute;
   }
