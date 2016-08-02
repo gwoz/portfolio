@@ -3,12 +3,8 @@ $(document).ready(function() {
   // Fullpage.js Settings
   if (screen && screen.width > 700) {
     $('#fullpage').fullpage({
-      autoScrolling: true,
+      continuousVertical: true,
       anchors:['main', 'development', 'consulting']
-    });
-  } else {
-    $('#fullpage').fullpage({
-      autoScrolling: false
     });
   }
 
