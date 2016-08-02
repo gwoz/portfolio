@@ -97,7 +97,7 @@
   text-align: center;
   margin: 0.3em;
   text-transform: uppercase;
-  padding-top: 20%;
+  padding-top: 10%;
 }
 
 #main-title > p {
@@ -117,8 +117,8 @@
 
 .macbook {
   padding-top: 4em;
-  height: 250px;
-  width: 380px;
+  height: 290px;
+  width: 450px;
 }
 
 /*Consulting*/
