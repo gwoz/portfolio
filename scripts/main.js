@@ -1,9 +1,16 @@
 $(document).ready(function() {
   
   // Fullpage.js Settings
-
-  $('#fullpage').fullpage({
-  });
+  if (screen && screen.width > 700) {
+    $('#fullpage').fullpage({
+      autoScrolling: true,
+      anchors:['main', 'development', 'consulting']
+    });
+  } else {
+    $('#fullpage').fullpage({
+      autoScrolling: false
+    });
+  }
 
   // iPhone Previews
 
